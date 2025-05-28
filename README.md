@@ -2,9 +2,9 @@ Welcome to my portfolio! 🎉
 
 This website showcases my skills and projects 💻
 
-My Portfolio Link: https://bhuminandan.github.io/Main-Portfolio/
+My Portfolio Link: https://nayeemahmed23.github.io/My-Portfolio/
 
-Feel Free To ReachOut to me At Linked In: https://www.linkedin.com/in/bhooomi/
+Feel Free To ReachOut to me At Linked In: https://www.linkedin.com/in/nayeem-ahmed-7b0081220/
 
 The first section, the hero section, greets you with a friendly image of mine, creating a personal touch. You'll also find a button inviting you to reach out and connect with me on LinkedIn, where we can further discuss potential collaborations and opportunities. 🔗
 
