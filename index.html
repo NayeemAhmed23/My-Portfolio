@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/modern-normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/components/header.css" />
+    <link rel="stylesheet" href="./styles/components/hero.css" />
+    <link rel="stylesheet" href="./styles/components/about.css" />
+    <link rel="stylesheet" href="./styles/components/featured.css" />
+    <link rel="stylesheet" href="./styles/components/work.css" />
+    <link rel="stylesheet" href="./styles/components/contact.css" />
+    <link rel="stylesheet" href="./styles/components/footer.css" />
+    <link rel="stylesheet" href="./styles/components/mobile-nav.css" />
+    <link rel="stylesheet" href="./styles/utils.css" />
+    <title>HELLO!</title>
+  </head>
+  <body>
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+          <li><a class="header__link" href="#about">About</a></li>
+          <li><a class="header__link" href="#featured">Work</a></li>
+          <li><a class="header__link" href="#contact">Contact</a></li>
+          <li id="theme-toggle">
+            <i class="fa-solid fa-circle-half-stroke header__mode-btn"></i>
+          </li>
+          <li><a href="https://drive.google.com/file/d/14yVOpU9NE61f0cQgM4LxdMXKt8xCvzl4/view?usp=sharing" class="header__resume btn" target="_blank">Resume</a></li>
+        </ul>
+        <div class="header__bars">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a href="#about" class="mobile-nav__link">About</a>
+          </li>
+          <li>
+            <a href="#featured" class="mobile-nav__link">Work</a>
+          </li>
+          <li>
+            <a href="#contact" class="mobile-nav__link">Contact</a>
+          </li>
+          <li class="mobile-nav__link-line"></li>
+          <li class="mobile-nav__mode-btn" id="theme-toggle">
+            <i class="fa-solid fa-circle-half-stroke"></i>
+          </li>
+          <li>
+            <a target="_blank" href="https://drive.google.com/file/d/14yVOpU9NE61f0cQgM4LxdMXKt8xCvzl4/view?usp=sharing" class="mobile-nav__btn btn">Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- End of Mobile Navigation -->
+
+    <main>
+      <section class="hero container">
+        <img
+          loading="lazy"
+          class="hero__img"
+          src="./assets/myimg.jpg"
+          alt="Profile Photo"
+        />
+        <h2 class="hero__subtitle">Hi, I'm Nayeem Ahmed 👋</h2>
+        <h1 class="hero__title">
+          FRONT-END <br />
+          WEB DEVELOPER.
+        </h1>
+        <p class="hero__description">
+          A passionate <strong>Frontend </strong> web developer and
+          ethusiast specialized in building stunning, pixel perfect, interactive
+          websites / user-interfaces
+        </p>
+        <a href="https://www.linkedin.com/in/nayeem-ahmed-7b0081220/" class="hero__btn btn" target="_blank">Reach Out</a>
+      </section>
+      <section id="about" class="about container section">
+        <div class="about__content">
+          <h2 class="about__title">About me</h2>
+          <p class="about__description">
+            I'm Nayeem Ahmed, a
+            <strong> frontend-focused developer.</strong> Passionate
+            about innovative designs, I specialize in HTML, CSS, JavaScript,
+            Bootstrap, and React.
+          </p>
+          <p class="about__description">
+            With an eye for detail, I create captivating user experiences. I
+            stay up-to-date with the latest trends to balance functionality and
+            aesthetics.
+          </p>
+          <p class="about__description">
+            Let's harness our combined strengths and create digital solutions
+            that not only meet but exceed expectations.
+            <a>Together, we can achieve greatness and leave a positive mark </a
+            >on the digital world.
+          </p>
+          <hr class="about__hr" />
+          <h3 class="about__subtitle">Technologies</h3>
+          <div class="about__us-container">
+            <ul class="about__ul">
+              <li class="about__list">Java</li>
+              <li class="about__list">Html5</li>
+              <li class="about__list">CSS</li>
+            </ul>
+            <ul class="about__ul">
+              <li class="about__list">JavaScript</li>
+              <li class="about__list">React Js</li>
+              <li class="about__list">SQL</li>
+            </ul>
+            <ul class="about__ul">
+              <li class="about__list">Bootstrap</li>
+              <li class="about__list">Material UI</li>
+              <li class="about__list">Git & GitHub</li>
+            </ul>
+            <ul class="about__ul">
+              <li class="about__list">Node Js</li>
+              <li class="about__list">Express Js</li>
+              <li class="about__list">MongoDB</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about__img-wrapeer">
+          <img
+            loading="lazy"
+            class="about__img"
+            src="./assets/profile-pic (1).png"
+            alt=""
+          />
+        </div>
+      </section>
+      <section id="featured" class="featured container section">
+        <h3 class="featured__subtitle">Featured Project</h3>
+        <div class="featured__wrapper">
+          <h2 class="featured__title">Crypto Tracker Project</h2>
+          <a href="https://github.com/NayeemAhmed23/crypto-tracker-website" target="_blank">
+            <i class="fa-solid fa-link featured__link"></i>
+          </a>
+        </div>
+        <p class="featured__description">
+          Entire world is moving towards crypto, being upto date with all the crypto currencies can be hard. use our crypto tracker dashboard to analyse, compare and learn about different 
+          crypto currencies. Crypto Tracker is a tracker that you always needed, compare different crypto currencies, look at their graphs based on the prices, total volumes and market cap,
+           etc. Search from the top 100 crypto currencies in real time and add them to your watchlist as well.
+        </p>
+        <div class="featured__info-container">
+          <div>
+            <h3 class="featured__label">Tech stack</h3>
+            <ul class="featured__tech-stack">
+              <li class="featured__info">ReactJs (For Frontend)</li>
+              <li class="featured__info">Material UI (For Components)</li>
+              <li class="featured__info">ChartJS (For Different Graphs)</li>
+              <li class="featured__info">Axios (For Making API calls)</li>
+              <li class="featured__info">React Router (For Routing)</li>
+              <li class="featured__info">Coingecko API (For Fetching Coin Data)</li>
+              <li class="featured__info">Framer Motion (For Animations)</li>
+
+            </ul>
+          </div>
+          <div>
+            <h3 class="featured__label">Project type</h3>
+            <p class="featured__info">Financial Technology</p>
+          </div>
+          <div>
+            <h3 class="featured__label">Timeline</h3>
+            <p class="featured__info">May 2024</p>
+          </div>
+        </div>
+        <div class="featured__img-container">
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              src="./assets/featured project img (1).png"
+              alt="Featured project screenshot hero section"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              src="./assets/featured project img (2).png"
+              alt="Featured project screenshot about section"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              src="./assets/featured project img (3).png"
+              alt="Featured project screenshot cards section"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              src="./assets/featured project img (4).png"
+              alt="Featured project screenshot green block section"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              src="./assets/featured project img (5).png"
+              alt="Featured project screenshot carousel info section"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              src="./assets/featured project img (6).png"
+              alt="Featured project screenshot quama paragraph section"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              src="./assets/featured project img (7).png"
+              alt="Featured project screenshot small cards secion"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              src="./assets/featured project img (8).png"
+              alt="Featured project screenshot footer section"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="work container section">
+        <h2 class="work__title">Projects</h2>
+        <p class="work__description">
+          I truly believe the quote "The only way to do great work is to love
+          what you do." - Steve Jobs, and I really love my job, this section
+          displays my work and compassion about it
+        </p>
+        <div class="work__container">
+          <!-- project 1 -->
+           <h3 class="work__project-title">Podcast Platform</h3>
+          <div class="work__img-wrapper work__image1">
+            <img
+              loading="lazy"
+              class="work__image"
+              src="./assets/podcast img.PNG"
+              alt="Project 1 Podcast Platform"
+            />
+          </div>
+          <div class="work__project work__content1">
+            <h3 class="work__project-subtitle">Podcast Platform</h3>
+            <div class="work__project-description1">
+              <p>
+                It is a podcast platform using React and Firebase enabling users to sign-in with their name, email and password. 
+              </p>
+            </div>
+            <div class="work__project-description1">
+              <p>
+                Once the user registered successfully, user can log-in to access their profile and create podcasts, episodes and discover new content.
+                The app emphasizes user friendliness and includes a logout feature for convenience.
+              </p>
+            </div>
+            <a
+              href="https://podcast-react-91quftld9-nayeem-ahmeds-projects.vercel.app/"
+              class="btn work__project-btn"
+              target="_blank"
+              >Website</a
+            >
+          </div>
+
+           <!-- project 2 -->  
+          <h3 class="work__project-title">Excel Clone</h3>
+          <div class="work__img-wrapper work__image2">
+            <img
+              loading="lazy"
+              class="work__image"
+              src="./assets/excel img.PNG"
+              alt="Project 1 Excel Clone"
+            />
+          </div>
+          <div class="work__project work__content2">
+            <h3 class="work__project-subtitle">Excel Clone</h3>
+            <div class="work__project-description2">
+              <p>
+                Tech Stack: HTML, CSS, JavaScript
+              </p>
+            </div>
+            <div class="work__project-description2">
+              <p>
+                A web-based spreadsheet application that mimics the functionality of Microsoft Excel. 
+                Built with vanilla JavaScript, it allows users to create, edit, and format spreadsheets, 
+                showcasing advanced DOM manipulation and event handling techniques.
+              </p>
+            </div>
+            <a
+              href="https://nayeemahmed23.github.io/GoogleSheetClone/"
+              class="btn work__project-btn"
+              target="_blank"
+              >Website</a
+            >
+          </div>
+           <!-- project 3 -->  
+          <h3 class="work__project-title">Youtube Clone</h3>
+          <div class="work__img-wrapper work__image3">
+            <img
+              loading="lazy"
+              class="work__image"
+              src="./assets/youtube img.PNG"
+              alt="Project 1 Youtube Clone"
+            />
+          </div>
+          <div class="work__project work__content3">
+            <h3 class="work__project-subtitle">Youtube Clone</h3>
+            <div class="work__project-description1">
+              <p>
+                Tech Stack: HTML, CSS, JavaScript
+              </p>
+            </div>
+            <div class="work__project-description1">
+              <p>
+               A YouTube clone application that allows users to
+                search for and watch videos. Built with vanilla JavaScript, 
+                it showcases the use of APIs and dynamic content loading to 
+                create a functional and interactive user experience.
+              </p>
+            </div>
+            <a
+              href="https://nayeemahmed23.github.io/YoutubeClone--Frontend-2/"
+              class="btn work__project-btn"
+              target="_blank"
+              >Website</a
+            >
+          </div>
+          
+           <!-- project 4 -->  
+          <h3 class="work__project-title">Timer App</h3>
+          <div class="work__img-wrapper work__image4">
+            <img
+              loading="lazy"
+              class="work__image"
+              src="./assets/timer app img.PNG"
+              alt="Project 1 Timer App"
+            />
+          </div>
+          <div class="work__project work__content4">
+            <h3 class="work__project-subtitle">Timer App</h3>
+            <div class="work__project-description2">
+              <p>
+                Tech Stack: HTML, CSS, JavaScript
+              </p>
+            </div>
+            <div class="work__project-description2">
+              <p>
+               A simple timer application that allows users to 
+               set a timer for a specific duration. Built with 
+               vanilla JavaScript, it showcases the use of setTimeout and 
+               DOM manipulation to create a functional and interactive user experience.
+              </p>
+            </div>
+            <a
+              href="https://nayeemahmed23.github.io/Alarm_App/"
+              class="btn work__project-btn"
+              target="_blank"
+              >Website</a
+            >
+          </div>
+
+          <!-- project 5 -->  
+          <h3 class="work__project-title">Weather App</h3>
+          <div class="work__img-wrapper work__image5">
+            <img
+              loading="lazy"
+              class="work__image"
+              src="./assets/weather app img.PNG"
+              alt="Project 1 Weather App"
+            />
+          </div>
+          <div class="work__project work__content5">
+            <h3 class="work__project-subtitle">Weather App</h3>
+            <div class="work__project-description1">
+              <p>
+                Tech Stack: HTML, CSS, JavaScript
+              </p>
+            </div>
+            <div class="work__project-description1">
+              <p>
+               A location-based weather application that 
+               fetches and displays real-time weather information based on the user's current geolocation. Utilizes the Geolocation API and external weather APIs to provide an interactive and accurate user experience.
+              </p>
+            </div>
+            <a
+              href="https://nayeemahmed23.github.io/Weather_App/"
+              class="btn work__project-btn"
+              target="_blank"
+              >Website</a
+            >
+          </div>
+
+          <!-- project 6 -->
+          <h3 class="work__project-title">Student Management System</h3>
+          <div class="work__img-wrapper work__image6">
+            <img
+              loading="lazy"
+              class="work__image"
+              src="./assets/student management table img.PNG"
+              alt="Project 2 Student Management System"
+            />
+          </div>
+          <div class="work__project work__content6">
+            <h3 class="work__project-subtitle">Student Management System</h3>
+            <div class="work__project-description2">
+              <p>
+                Tech Stack: HTML, CSS, JavaScript
+              </p>
+            </div>
+            <div class="work__project-description2">
+              <p>
+                A responsive web application that allows users to add, edit, and 
+                delete student records. Built with vanilla JavaScript, it showcases dynamic DOM manipulation and interactive form handling for managing student data efficiently.
+              </p>
+            </div>
+            <a
+              href="https://nayeemahmed23.github.io/Student_Management_System/"
+              class="btn work__project-btn"
+              target="_blank"
+              >Website</a
+            >
+          </div>
+
+          <!-- project 7 -->
+          <h3 class="work__project-title">Blinkit Clone</h3>
+          <div class="work__img-wrapper work__image7">
+            <img
+              loading="lazy"
+              class="work__image"
+              src="./assets/Project (3).png"
+              alt="Project 1 Blinkit Clone"
+            />
+          </div>
+          <div class="work__project work__content7">
+            <h3 class="work__project-subtitle">Blinkit Clone</h3>
+            <div class="work__project-description1">
+              <p>
+                This blink-it clone is made with pure Html and css with all the
+                exactly similar animations and cards used on official
+                blinkit.com website
+              </p>
+            </div>
+            <div class="work__project-description1">
+              <p>
+                The best part about this clone is, it is fully responsive to all
+                the device, and this makes it one of my favourite projects
+              </p>
+            </div>
+            <a
+              href="https://nayeemahmed23.github.io/Blinkit_clone/"
+              class="btn work__project-btn"
+              target="_blank"
+              >Website</a
+            >
+          </div>
+
+          
+
+          <!-- project 8 -->
+          <h3 class="work__project-title">Pizza Restraurant</h3>
+          <div class="work__img-wrapper work__image8">
+            <img
+              loading="lazy"
+              class="work__image"
+              src="./assets/Project (4).png"
+              alt="Project 1 Pizza Restraurant"
+            />
+          </div>
+          <div class="work__project work__content8">
+            <h3 class="work__project-subtitle">Pizza Restraurant</h3>
+            <div class="work__project-description2">
+              <p>
+                This website is integration of html and css and boostrap, which
+                makes it a completely responsive website
+              </p>
+            </div>
+            <div class="work__project-description2">
+              <p>
+                Dive into our interactive menu section where HTML and CSS bring
+                our pizzas to life with vivid descriptions and enticing imagery.
+              </p>
+            </div>
+            <a
+              href="https://nayeemahmed23.github.io/F-1_module-test/"
+              class="btn work__project-btn"
+              target="_blank"
+              >Website</a
+            >
+          </div>
+
+          <!-- project 9 -->
+          <h3 class="work__project-title">UsabilityHub Hero Section</h3>
+          <div class="work__img-wrapper work__image9">
+            <img
+              loading="lazy"
+              class="work__image"
+              src="./assets/spotify img.PNG"
+              alt="Project 1 Usability Hero Section Clone"
+            />
+          </div>
+          <div class="work__project work__content9">
+            <h3 class="work__project-subtitle">Spotify Clone</h3>
+            <div class="work__project-description1">
+              <p>
+                This is one of my first projects after learning the html and
+                css.
+              </p>
+            </div>
+            <div class="work__project-description1">
+              <p>
+               A visually accurate static clone of the Spotify web interface, built entirely with HTML and CSS. This project focuses on recreating the layout, design,
+                and visual aesthetics of Spotify's desktop platform, showcasing strong skills in responsive design and frontend styling.
+              </p>
+            </div>
+            <a
+              href="https://nayeemahmed23.github.io/Spotify_Clone/"
+              class="btn work__project-btn"
+              target="_blank"
+              >Website</a
+            >
+          </div>
+
+          <!-- project 10 -->
+          <h3 class="work__project-title">Swiggy Clone</h3>
+          <div class="work__img-wrapper work__image10">
+            <img
+              loading="lazy"
+              class="work__image"
+              src="./assets/Project (1).png"
+              alt="Project 1 Swiggy Clone"
+            />
+          </div>
+          <div class="work__project work__content10">
+            <h3 class="work__project-subtitle">Swiggy Clone</h3>
+            <div class="work__project-description2">
+              <p>
+                Experience the essence of convenience with our swiggy.com
+                website clone - a seamless HTML and CSS masterpiece.
+              </p>
+            </div>
+            <div class="work__project-description2">
+              <p>
+                This swiggy clone is made with Html and css only, it looks
+                exactly like the original swiggy.com website and has all the
+                nessesary animations that gives the website a professional look
+                and feel.
+              </p>
+            </div>
+            <a
+              href="https://nayeemahmed23.github.io/Swiggy_Clone/"
+              class="btn work__project-btn"
+              target="_blank"
+              >Website</a
+            >
+          </div>
+          
+        </div>
+      </section>
+      <section id="contact" class="contact container section">
+        <h2 class="contact__title">Get In Contact</h2>
+        <p class="contact__description">
+          Feel free to reach out to us using the information provided below. For
+          any inquiries, suggestions, or feedback, please don't hesitate to
+          contact us via email at
+          <a
+            href="mailto:nayeem.m.negalur@gmail.com"
+            target="_blank"
+            style="text-decoration: none"
+            >Mail.</a
+          >
+          Additionally, you can also connect with us on LinkedIn by clicking the
+          button below, which will direct you to our profile.
+        </p>
+        <a href="https://www.linkedin.com/in/nayeem-ahmed-7b0081220/" class="contact__btn btn"
+          >LinkedIn</a
+        >
+      </section>
+    </main>
+
+    <footer class="footer container section">
+      <h3 class="footer__title">~Nayeem Ahmed~</h3>
+    </footer>
+
+    <script src="./src/script.js"></script>
+    <script src="./src/utils/mobile-nav.js"></script>
+  </body>
+</html>
